@@ -1,0 +1,17 @@
+@use '../../styles/variables' as *;
+
+.Header {
+  background-color: $dark-teal;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid $light-gray-green;
+}
+
+.headerHeading {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

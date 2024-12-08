@@ -1,0 +1,45 @@
+@use '../../styles/variables' as *;
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.textareaWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: $border-radius;
+  border: 1px solid $dark-gray-green;
+
+  &.error {
+    border-color: red;
+  }
+}
+
+.errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.button {
+  background-color: $dark-teal;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $light-gray-green;
+  }
+}

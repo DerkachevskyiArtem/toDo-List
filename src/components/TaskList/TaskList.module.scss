@@ -1,0 +1,21 @@
+@use '../../styles/variables' as *;
+
+.list {
+  list-style-type: none;
+  background-color: $light-gray-green;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.noTasks {
+  color: $dark-gray;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+
+  background-color: $soft-gray;
+  border-radius: $border-radius;
+  border: 1px solid $light-gray;
+
+}
